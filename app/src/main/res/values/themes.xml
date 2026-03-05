@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ZoneVault" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:windowBackground">@color/primaryColor</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Splash" parent="Theme.ZoneVault">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/primaryColor</item>
+    </style>
+    <style name="Theme.Fullscreen" parent="Theme.ZoneVault">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
